@@ -11,6 +11,7 @@ The dataset contains a total of 38 texture-less and reflective metal parts. Diff
 ## Download
 You can download zju-rtl on windows and linux in many ways.
 
+### Download in browser
 First of all, if the browser you are using is not Microsoft Edge, Google or FireFox, you can try to enter the following address on the browser
 
 > ftp://userftp:1234@10.11.122.13:21
