@@ -12,8 +12,10 @@ If the following interface is displayed on your browser, congratulations, you ca
 
 ### Download in Windows(Win 10)
 Enter the following address in the address bar of the windows file explorer.
-> ftp://userftp:1234@10.11.122.13:21
-> If you can see the following interface, it means success. The zju-rtl folder contains all the contents of the data set.
+
+ftp://userftp:1234@10.11.122.13:21
+If you can see the following interface, it means success. The zju-rtl folder contains all the contents of the data set.
+
 ![image](https://user-images.githubusercontent.com/60084969/140631787-593cb14c-97af-4f7b-b1d6-b19f22e45bad.png)
 
 ### Download in Linux(Ubuntu 18.04)
@@ -31,10 +33,7 @@ Before downloading a file, we first need to use the "lcd" command to set the loc
 > lcd /opt/ftpDir
 If you do not specify a download directory, the file will be downloaded to the working directory when you log in to FTP.
 Now, we can use the command get to download the file, and the file will be downloaded to the directory you set with "lcd".
-> get zju-rtl/xxx.png
-
-wget ftp://10.11.122.13:21/zju-rtl --ftp-user=userftp --ftp-password=1234 -r
-zju-rtl文件树如下
+> get zju-rtl/xxx.zip
 ## Usage
 >* CAD models: there are three types of CAD models('.ply', '.stl', '.sldrt')
 >* Testing images(n#n): Testing images with a resolution of n*n
