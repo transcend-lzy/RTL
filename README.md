@@ -5,15 +5,20 @@ It has attracted more and more attention in academia and industry. However, ther
 ## Download
 You can download zju-rtl on windows and linux in many ways.
 First of all, if the browser you are using is not Microsoft Edge, Google or FireFox, you can try to enter the following address on the browser
+
 > ftp://userftp:1234@10.11.122.13:21
+
 If the following interface is displayed on your browser, congratulations, you can click on the zju-rtl folder to download, if this method does not work, please try the following methods
+
 ![image](https://user-images.githubusercontent.com/60084969/140631663-623f69e7-339f-42f5-9897-c3670dcea610.png)
-> ps：If the page asks for a username and password, the username is userftp and the password is 1234.
+
+ps：If the page asks for a username and password, the username is userftp and the password is 1234.
 
 ### Download in Windows(Win 10)
 Enter the following address in the address bar of the windows file explorer.
 
 ftp://userftp:1234@10.11.122.13:21
+
 If you can see the following interface, it means success. The zju-rtl folder contains all the contents of the data set.
 
 ![image](https://user-images.githubusercontent.com/60084969/140631787-593cb14c-97af-4f7b-b1d6-b19f22e45bad.png)
@@ -24,18 +29,21 @@ If you can see the following interface, it means success. The zju-rtl folder con
 > ftp 10.11.122.13
 #### Step 2: Login with username and password
 name is userftp
+
 password is 1234
 #### Step 3: Directory operations
 You can use "ls", "cd" and other commands to display the directory list and change the directory
 
 #### Step 4: Use FTP to download files
 Before downloading a file, we first need to use the "lcd" command to set the location of the local acceptance directory, like this
+
 > lcd /opt/ftpDir
+
 If you do not specify a download directory, the file will be downloaded to the working directory when you log in to FTP.
 Now, we can use the command get to download the file, and the file will be downloaded to the directory you set with "lcd".
 > get zju-rtl/xxx.zip
 ## Usage
->* CAD models: there are three types of CAD models('.ply', '.stl', '.sldrt')
->* Testing images(n#n): Testing images with a resolution of n*n
->* Training images(n#n): Testing images with a resolution of n*n
->* utils: Some visualization tools, you can also download from this repository
+* CAD models: there are three types of CAD models('.ply', '.stl', '.sldrt')
+* Testing images(n#n): Testing images with a resolution of n*n
+* Training images(n#n): Testing images with a resolution of n*n
+* utils: Some visualization tools, you can also download from this repository
