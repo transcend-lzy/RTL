@@ -18,7 +18,10 @@ ftp://userftp:1234@10.11.122.13:21
 ```
 　If the following page is displayed on your browser(the username is "userftp" and password is "1234" if you are asked to provide them), you can click on the zju-rtl folder to download, if this method does not work, please try other methods.
 
-![image](https://user-images.githubusercontent.com/60084969/140631663-623f69e7-339f-42f5-9897-c3670dcea610.png)
+
+![ftp界面](https://user-images.githubusercontent.com/60084969/140676056-53541be5-c7f8-4118-ad29-8fffe391011e.png)
+
+![登陆界面](https://user-images.githubusercontent.com/60084969/140676071-4c00d19a-2666-4b65-9b5b-fae0da920b2b.png)
 
 ### Download in Windows(Win 10)
 　Enter the following address in the address bar of the windows file explorer.
