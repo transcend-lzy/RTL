@@ -1,4 +1,4 @@
-# zju-rtl
+# RTL
 ## Background & Introduction
 　The detection and pose estimation of reflective and texture-less objects, which are common in industry, are of significant importance but challenging.However, there is no available large public dataset of reflective and texture-less objects, which makes the relevant researches inconvenient. Thus, we proposed Zju-rtl, a new public dataset for reflective and texture-less metal parts, which can be used for object detection and pose estimation.
 
