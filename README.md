@@ -9,7 +9,7 @@
 ![所有测试场景](https://user-images.githubusercontent.com/60084969/140649193-2bdd725e-41ff-47e0-adda-8fe482d78ffa.png)
 
 ## Download
-　You can download RTL on this website[download](http://www.zju-rtl.cn:8080/RTL/).
+　You can download RTL on this website[click here to download](http://www.zju-rtl.cn:8080/RTL/).
 
 ## Usage
 
