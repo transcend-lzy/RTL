@@ -9,52 +9,8 @@
 ![所有测试场景](https://user-images.githubusercontent.com/60084969/140649193-2bdd725e-41ff-47e0-adda-8fe482d78ffa.png)
 
 ## Download
-　You can download zju-rtl on windows and linux in many ways.
+　You can download RTL on this website[download](http://www.zju-rtl.cn:8080/RTL/).
 
-### Download in browser
-　First of all, if the browser you are using is not Microsoft Edge, Google or FireFox, you can try to enter the following address on the browser
-```
-ftp://userftp:1234@10.11.122.13:21
-```
-　If the following page is displayed on your browser(the username is "userftp" and password is "1234" if you are asked to provide them), you can click on the zju-rtl folder to download, if this method does not work, please try other methods.
-
-
-![ftp界面](https://user-images.githubusercontent.com/60084969/140676056-53541be5-c7f8-4118-ad29-8fffe391011e.png)
-
-![登陆界面](https://user-images.githubusercontent.com/60084969/140676071-4c00d19a-2666-4b65-9b5b-fae0da920b2b.png)
-
-### Download in Windows(Win 10)
-　Enter the following address in the address bar of the windows file explorer.
-```
-ftp://userftp:1234@10.11.122.13:21
-```
-　If you can see the following page, it means success. The zju-rtl folder contains all the contents of the data set.
-
-![image](https://user-images.githubusercontent.com/60084969/140631787-593cb14c-97af-4f7b-b1d6-b19f22e45bad.png)
-
-### Download in Linux(Ubuntu 18.04)
-#### Step 1: establish an FTP connection
-　Open the terminal and enter the following command
-```
-ftp 10.11.122.13
-```
-#### Step 2: Login with username and password
-> name is userftp
-> 
-> password is 1234
-#### Step 3: Directory operations
-　You can use "ls", "cd" and other commands to display the directory list and change the directory
-
-#### Step 4: Use FTP to download files
-　Before downloading a file, we first need to use the "lcd" command to set the location of the local acceptance directory, like this
-```
-lcd /opt/ftpDir
-```
-　If you do not specify a download directory, the file will be downloaded to the working directory when you log in to FTP.
-Now, we can use the command get to download the file, and the file will be downloaded to the directory you set with "lcd".
-```
-get zju-rtl/xxx.zip
-```
 ## Usage
 
 * CAD models.zip: there are three types of CAD models('.ply', '.stl', '.sldrt')
